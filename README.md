@@ -21,7 +21,7 @@ These are **false positives** caused by:
 
 ### ✅ Use the full version (might trigger Windows Security)
 
-**[MSMaker-LITE](https://github.com/Office-Maker/MSMaker)**
+**[MSMaker](https://github.com/Office-Maker/MSMaker)**
 
 - Includes Windows activation (causes false positives in windows security)
 
