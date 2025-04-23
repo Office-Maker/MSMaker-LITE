@@ -1,8 +1,8 @@
-# ⚠️ Windows Defender False Positives – Explanation
+# ⚠️ This is not the full version of MSMaker
 
-## Why Does Windows Defender Flag This Tool?
+## This only includes the Office activation to prevent Windows Security false alarms
 
-Windows Defender (and other antivirus software) may detect this tool as:
+As Windows Security (and other antivirus software) may detect the full version as:
 
 - `PUA:Win32/Puwaders.C!ml`
 - `Trojan:Script/Wacatac.B!ml`
@@ -17,28 +17,13 @@ These are **false positives** caused by:
 
 ---
 
-## How to Resolve This?
+## Need activation for Windows?
 
-### ✅ Option 1: Use the "Lite" Version (Recommended)
+### ✅ Use the full version (might trigger Windows Security)
 
-If you only need Microsoft Office activation, download:  
-**[MSMaker-LITE](https://github.com/Office-Maker/MSMaker-LITE)**
+**[MSMaker-LITE](https://github.com/Office-Maker/MSMaker)**
 
-- Excludes Windows activation (no false positives in windows security)
-
----
-
-### 🔧 Option 2: Add a Defender Exclusion
-
-1. Open **Windows Security** → **Virus & Threat Protection** → **Manage Settings**  
-2. Under **Exclusions**, add the folder containing `MSMaker.bat`
----
-
-### ⏳ Option 3: Temporarily Disable Real-Time Protection (not recommended)
-
-1. Turn off **Real-time protection** (Windows Security → Virus & Threat Protection)  
-2. Run the script  
-3. Re-enable protection afterward
+- Includes Windows activation (causes false positives in windows security)
 
 ---
 
